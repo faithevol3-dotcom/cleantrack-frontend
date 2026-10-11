@@ -16,6 +16,7 @@ import MyPickupRequests from "./pages/customer/MyPickupRequests";
 import PickupDetails from "./pages/customer/PickupDetails";
 import RecurringPickups from "./pages/customer/RecurringPickups";
 import PickupSummary from "./pages/customer/PickupSummary";
+import Notifications from "./pages/customer/Notifications";
 import DriverDashboard from "./pages/driver/DriverDashboard";
 import MyAssignedPickups from "./pages/driver/MyAssignedPickups";
 import PickupJobDetails from "./pages/driver/PickupJobDetails";
@@ -54,6 +55,7 @@ const App = () => (
             <Route path="pickups/:id" element={<PickupDetails />} />
             <Route path="schedules" element={<RecurringPickups />} />
             <Route path="summary" element={<PickupSummary />} />
+            <Route path="notifications" element={<Notifications />} />
           </Route>
         </Route>
 

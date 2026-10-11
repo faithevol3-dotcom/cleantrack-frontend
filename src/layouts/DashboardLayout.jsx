@@ -10,7 +10,8 @@ const menus = {
     ["Report Full Bin", "/customer/report-bin"],
     ["Pickup Requests", "/customer/pickups"],
     ["Recurring Pickups", "/customer/schedules"],
-    ["My Summary", "/customer/summary"]
+    ["My Summary", "/customer/summary"],
+    ["Notifications", "/customer/notifications"]
   ],
   driver: [
     ["Dashboard", "/driver"],
