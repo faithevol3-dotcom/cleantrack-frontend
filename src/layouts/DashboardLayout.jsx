@@ -9,7 +9,8 @@ const menus = {
     ["Add Location", "/customer/locations/new"],
     ["Report Full Bin", "/customer/report-bin"],
     ["Pickup Requests", "/customer/pickups"],
-    ["Recurring Pickups", "/customer/schedules"]
+    ["Recurring Pickups", "/customer/schedules"],
+    ["My Summary", "/customer/summary"]
   ],
   driver: [
     ["Dashboard", "/driver"],
