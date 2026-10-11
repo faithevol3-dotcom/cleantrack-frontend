@@ -14,6 +14,7 @@ import AddLocation from "./pages/customer/AddLocation";
 import ReportFullBin from "./pages/customer/ReportFullBin";
 import MyPickupRequests from "./pages/customer/MyPickupRequests";
 import PickupDetails from "./pages/customer/PickupDetails";
+import RecurringPickups from "./pages/customer/RecurringPickups";
 import DriverDashboard from "./pages/driver/DriverDashboard";
 import MyAssignedPickups from "./pages/driver/MyAssignedPickups";
 import PickupJobDetails from "./pages/driver/PickupJobDetails";
@@ -50,6 +51,7 @@ const App = () => (
             <Route path="report-bin" element={<ReportFullBin />} />
             <Route path="pickups" element={<MyPickupRequests />} />
             <Route path="pickups/:id" element={<PickupDetails />} />
+            <Route path="schedules" element={<RecurringPickups />} />
           </Route>
         </Route>
 

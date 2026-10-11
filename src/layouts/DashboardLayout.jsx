@@ -8,7 +8,8 @@ const menus = {
     ["My Locations", "/customer/locations"],
     ["Add Location", "/customer/locations/new"],
     ["Report Full Bin", "/customer/report-bin"],
-    ["Pickup Requests", "/customer/pickups"]
+    ["Pickup Requests", "/customer/pickups"],
+    ["Recurring Pickups", "/customer/schedules"]
   ],
   driver: [
     ["Dashboard", "/driver"],
